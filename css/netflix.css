@@ -1,0 +1,40 @@
+.logo-background{
+    background-color: black;
+    display: flex;
+}
+#logo-netflix{
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+.gray{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+}
+.menu-navegação{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu-navegação:hover{
+    color:red;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.menu-navegação:not(:hover){
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color: rgb(24, 29, 29);
+}
+.subtitulos{
+    color: red;
+    margin-left: 3%;
+}
+p{
+    color: white;
+    margin-left: 3%;
+}
